@@ -6,6 +6,10 @@
       <h1 class="text-3xl mb-6">Log In</h1>
 
       <form @submit.prevent="submit">
+        <hr>
+        demo@example.com:password
+        <hr>
+        <br>
         <div class="mb-6">
           <label class="block mb-2 uppercase font-bold text-xs text-gray-700" for="email"> Email </label>
 

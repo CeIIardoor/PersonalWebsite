@@ -22,10 +22,11 @@ createInertiaApp({
       .mount(el);
   },
 
-  title: title => `My App - ${title}`
+  title: title => `Cellardoor - ${title}`
 });
 
 InertiaProgress.init({
-  color: "red",
+  delay: 10,
+  color: "white",
   showSpinner: true,
 });

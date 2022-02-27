@@ -16,6 +16,6 @@ mix
   .extract()
   .vue(3)
   .postCss("resources/css/app.css", "public/css", [
-    //
+    require("tailwindcss"),
   ])
   .version();
