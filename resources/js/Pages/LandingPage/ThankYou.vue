@@ -11,22 +11,16 @@ export default {
 <template>
   <Head>
     <title>Merci</title>
-    <meta 
-      type="description"
-      content="Index information"
-      head-key="description"
-    >
   </Head>
   
-    <div class="bg-gray-800 text-gray-100 lg:h-screen lg:overflow-hidden px-8 py-6">
+    <div class="bg-gray-800 text-gray-100 h-screen overflow-hidden px-8 m-0 py-6">
       <nav class="mx-5">
-        <a href="/">
-        <button class="bg-transparent hover:bg-violet-500 text-violet-700 font-semibold hover:text-white py-2 px-4 border border-violet-500 hover:border-transparent rounded">
+        <Link href="/" class="bg-transparent hover:bg-violet-500 text-violet-700 font-semibold hover:text-white py-2 px-4 border border-violet-500 hover:border-transparent rounded">
           Retour
-        </button></a>
+        </Link>
       </nav>
       <div
-        class="max-w-screen-lg bg-gray-200 mx-auto px-8 md:px-12 lg:px-16 xl:px-32 py-16  text-gray-900 rounded-lg shadow-lg">
+        class="max-w-screen-lg bg-gray-200 mx-auto px-8 md:px-12 lg:px-16 xl:px-32 py-16 mt-8  text-gray-900 rounded-lg shadow-lg">
 
         <div class="flex flex-col justify-start">
           <div>

@@ -506,14 +506,14 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
   type: "description",
-  content: "Index information",
+  content: "Contact information",
   "head-key": "description"
 }, null, -1
 /* HOISTED */
 );
 
 var _hoisted_3 = {
-  "class": "bg-gray-800 text-gray-100 lg:h-screen lg:overflow-hidden px-8 py-6"
+  "class": "bg-gray-800 text-gray-100 md:h-screen min-h-screen px-8 py-6"
 };
 var _hoisted_4 = {
   "class": "mx-5"
@@ -562,7 +562,7 @@ var _hoisted_16 = {
 };
 var _hoisted_17 = ["disabled"];
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col justify-start\"><div><h2 class=\"text-4xl lg:text-4xl font-bold leading-tight\">Parlons de tout !</h2></div><div class=\"mt-6 text-center\"><img src=\"/assets/svg/Contact_SVG.svg\" alt=\"\" class=\"w-full\"></div><div class=\"text-gray-700 mt-10 text-center\"><span class=\"tooltip tooltip-bottom\" data-tip=\"☎: +212 6 62 71 82 25\">Vous n&#39;aimez pas les formulaires ?</span></div></div>", 1);
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col justify-start\"><div><h2 class=\"text-4xl lg:text-4xl font-bold leading-tight\">Parlons de tout !</h2></div><div class=\"mt-6 text-center\"><img src=\"/assets/svg/Contact_SVG.svg\" alt=\"Contact_SVG\" class=\"w-full\"></div><div class=\"text-gray-700 mt-10 text-center\"><span class=\"tooltip tooltip-bottom\" data-tip=\"☎: +212 6 62 71 82 25\">Vous n&#39;aimez pas les formulaires ?</span></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -670,21 +670,21 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
   type: "description",
-  content: "Index information",
+  content: "Je m'appelle Yassine Laouina, un passionné de l'informatique et des nouvelles technologies.",
   "head-key": "description"
 }, null, -1
 /* HOISTED */
 );
 
 var _hoisted_3 = {
-  "class": "container h-screen flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between"
+  "class": "min-h-screen flex flex-col justify-center p-6 mx-auto lg:py-24 lg:flex-row lg:justify-between"
 };
 var _hoisted_4 = {
   "class": "flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
 };
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "text-5xl font-bold leading-none sm:text-6xl"
+  "class": "text-5xl font-bold leading-none sm:text-2xl"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
   "class": "text-violet-400"
 }, "Bonjour,")], -1
@@ -716,7 +716,7 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   rel: "noopener noreferrer",
   href: "/assets/pdf/CV_LAOUINA_Yassine.pdf",
   target: "_blank",
-  "class": "px-8 py-3 text-lg font-semibold border rounded border-coolGray-100"
+  "class": "px-8 py-3 text-lg font-semibold border rounded"
 }, "CV", -1
 /* HOISTED */
 );
@@ -748,7 +748,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [_hoisted_8, _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
     rel: "noopener noreferrer",
     href: "/contact",
-    "class": "px-8 py-3 text-lg font-semibold border rounded border-coolGray-100"
+    "class": "px-8 py-3 text-lg font-semibold border rounded"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_10];
@@ -815,27 +815,50 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("meta", {
-  type: "description",
-  content: "Index information",
-  "head-key": "description"
-}, null, -1
+var _hoisted_2 = {
+  "class": "bg-gray-800 text-gray-100 h-screen overflow-hidden px-8 m-0 py-6"
+};
+var _hoisted_3 = {
+  "class": "mx-5"
+};
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Retour ");
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "max-w-screen-lg bg-gray-200 mx-auto px-8 md:px-12 lg:px-16 xl:px-32 py-16 mt-8 text-gray-900 rounded-lg shadow-lg"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex flex-col justify-start"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "text-4xl lg:text-4xl font-bold leading-tight"
+}, "Merci pour votre mot,")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-gray-700 mt-10"
+}, " Je reviendrai vers vous dans les plus bref délais. A bientôt ! ")])], -1
 /* HOISTED */
 );
-
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-gray-800 text-gray-100 lg:h-screen lg:overflow-hidden px-8 py-6\"><nav class=\"mx-5\"><a href=\"/\"><button class=\"bg-transparent hover:bg-violet-500 text-violet-700 font-semibold hover:text-white py-2 px-4 border border-violet-500 hover:border-transparent rounded\"> Retour </button></a></nav><div class=\"max-w-screen-lg bg-gray-200 mx-auto px-8 md:px-12 lg:px-16 xl:px-32 py-16 text-gray-900 rounded-lg shadow-lg\"><div class=\"flex flex-col justify-start\"><div><h2 class=\"text-4xl lg:text-4xl font-bold leading-tight\">Merci pour votre mot,</h2></div><div class=\"text-gray-700 mt-10\"> Je reviendrai vers vous dans les plus bref délais. A bientôt ! </div></div></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
+  var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
+
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Head, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_1, _hoisted_2];
+      return [_hoisted_1];
     }),
     _: 1
     /* STABLE */
 
-  }), _hoisted_3], 64
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    href: "/",
+    "class": "bg-transparent hover:bg-violet-500 text-violet-700 font-semibold hover:text-white py-2 px-4 border border-violet-500 hover:border-transparent rounded"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_4];
+    }),
+    _: 1
+    /* STABLE */
+
+  })]), _hoisted_5])], 64
   /* STABLE_FRAGMENT */
   );
 }

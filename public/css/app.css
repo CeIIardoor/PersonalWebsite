@@ -424,39 +424,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.container {
-  width: 100%;
-}
-@media (min-width: 640px) {
-
-  .container {
-    max-width: 640px;
-  }
-}
-@media (min-width: 768px) {
-
-  .container {
-    max-width: 768px;
-  }
-}
-@media (min-width: 1024px) {
-
-  .container {
-    max-width: 1024px;
-  }
-}
-@media (min-width: 1280px) {
-
-  .container {
-    max-width: 1280px;
-  }
-}
-@media (min-width: 1536px) {
-
-  .container {
-    max-width: 1536px;
-  }
-}
 .-z-10 {
   z-index: -10;
 }
@@ -529,11 +496,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-32 {
   height: 8rem;
 }
-.h-screen {
-  height: 100vh;
-}
 .h-72 {
   height: 18rem;
+}
+.h-screen {
+  height: 100vh;
 }
 .min-h-screen {
   min-height: 100vh;
@@ -857,7 +824,7 @@ html,body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  
+  font-family : 'Roboto';
 }
 
 .star {
@@ -1045,25 +1012,24 @@ html,body {
     border-radius: 0.5rem;
   }
 
-  .sm\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 
-  .sm\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
   @media (min-width: 768px) {
 
   .md\:inline {
     display: inline;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:grid-cols-2 {
@@ -1090,10 +1056,6 @@ html,body {
     display: none;
   }
 
-  .lg\:h-screen {
-    height: 100vh;
-  }
-
   .lg\:h-96 {
     height: 24rem;
   }
@@ -1112,10 +1074,6 @@ html,body {
 
   .lg\:justify-between {
     justify-content: space-between;
-  }
-
-  .lg\:overflow-hidden {
-    overflow: hidden;
   }
 
   .lg\:px-16 {
