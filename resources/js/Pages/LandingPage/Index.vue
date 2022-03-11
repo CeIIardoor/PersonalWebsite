@@ -19,11 +19,13 @@ export default {
     
     <div class="min-h-screen flex flex-col justify-center p-6 mx-auto lg:py-24 lg:flex-row lg:justify-between">
 			<div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-				<h1 class="text-5xl font-bold leading-none sm:text-2xl">
+				<h1 class="font-bold leading-none sm:text-2xl md:text-4xl lg:text-5xl">
         <span class="text-violet-400">Bonjour,</span>
 				</h1>
-				<p class="mt-6 mb-8 text-lg sm:mb-12">Je m'appelle Yassine Laouina,
-					<br class="hidden md:inline lg:hidden">un passionné de l'informatique et des nouvelles technologies.
+				<p class="mt-6 mb-8 text-lg sm:mb-12">
+				Je m'appelle Yassine Laouina,
+				<br class="hidden md:inline lg:hidden">
+				un passionné de l'informatique et des nouvelles technologies.
 				</p>
 				<div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
 					<a rel="noopener noreferrer" href="https://www.linkedin.com/in/laouina-yassine" target="_blank" class="px-8 py-3 text-lg font-semibold rounded bg-violet-400 text-coolGray-900">LinkedIn</a>
