@@ -14,6 +14,7 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
         $attributes['created_at'] = \Carbon\Carbon::now()->toDateTimeString();
+        $attributes['updated_at'] = \Carbon\Carbon::now()->toDateTimeString();
         DB::table('contacts')->insert($attributes);
 
         return inertia('LandingPage/ThankYou');

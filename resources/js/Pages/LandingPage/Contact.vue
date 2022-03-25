@@ -12,14 +12,6 @@ let submit = () => {
 };
 </script>
 
-<script>
-import Starred from "./Starred";
-
-export default {
-  layout: Starred,
-};
-
-</script>
 
 <template>
   <Head>

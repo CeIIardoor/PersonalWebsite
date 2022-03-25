@@ -1,13 +1,3 @@
-<script>
-import Starred from "./Starred";
-
-export default {
-  layout: Starred,
-};
-
-</script>
-
-
 <template>
   <Head>
     <title>Merci</title>

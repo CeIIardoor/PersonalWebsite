@@ -1,45 +1,20 @@
 <template>
-  <Head>
-    <meta
-      type="description"
-      content="Information about my app"
-      head-key="description"
-    >
-  </Head>
-
-  <section class="p-6 bg-gray-200">
-    <header class="flex justify-between">
-      <div class="flex items-center">
-        <h1 class="font-bold text-lg">
-          My App
-        </h1>
-
-        <p class="text-sm ml-4">
-          Welcome Back, {{ username }}!
-        </p>
-      </div>
-
-      <Nav />
-    </header>
-  </section>
-
-  <section class="p-6">
-    <div class="max-w-3xl mx-auto">
+  <section class="homescreen -z-10 m-0 bg-gradient-to-b from-gray-800 to-gray-600 text-gray-100">
       <slot />
-    </div>
   </section>
-</template>
-
-<script>
-import Nav from "./Nav";
-
-export default {
-  components: { Nav },
-
-  computed: {
-    username() {
-      return this.$page.props.auth.user.username;
+   <component :is="'script'">
+    for (var i = 0; i &lt; 100; i++) {
+    star = document.createElement("div");
+    star.setAttribute("class", "star m-0 -z-5");
+    var animation = 'animation: twinkle ' + (Math.random() * 5 + 5) + 's linear ' + (Math.random() * 1 + 1) + 's infinite;
+      top: ' +
+      Math.random() * window.innerHeight +
+      'px; left: ' +
+      Math.random() * window.innerWidth +
+      'px;';
+    star.setAttribute("style", animation);
+    document.querySelector('.homescreen').appendChild(star);
     }
-  }
-};
-</script>
+  </component>
+</template>
+ 
