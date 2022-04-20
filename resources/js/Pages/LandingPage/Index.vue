@@ -21,7 +21,7 @@
 				</p>
 				<div class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
 					<a rel="noopener noreferrer" href="https://www.linkedin.com/in/laouina-yassine" target="_blank" class="px-8 py-3 text-lg font-semibold rounded bg-violet-400 text-coolGray-900">LinkedIn</a>
-					<a rel="noopener noreferrer" href="https://github.com/CeIIardoor/CeIIardoor/blob/master/Laouina_Yassine_CV.pdf" target="_blank" class="px-8 py-3 text-lg font-semibold border rounded">CV</a>
+					<a rel="noopener noreferrer" href="https://github.com/CeIIardoor" target="_blank" class="px-8 py-3 text-lg font-semibold border rounded">Github</a>
 					<Link rel="noopener noreferrer" href="/contact" class="px-8 py-3 text-lg font-semibold border rounded">Contact</Link>
 				</div>
       </div>
